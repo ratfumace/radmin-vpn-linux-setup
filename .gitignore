@@ -1,0 +1,20 @@
+# Arquivos temporários e logs
+*.log
+*.tmp
+*~
+
+# Binários pesados baixados em tempo de execução
+*.AppImage
+*.exe
+*.tar.xz
+*.tar.gz
+
+# Diretórios de build e extração locais
+squashfs-root/
+radmin-appimage/
+wineprefix/
+
+# Configurações de IDE e sistema
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,6 @@
+# Regras sudoers para o Radmin VPN (Linux)
+# Permite gerenciar a interface TAP virtual (radminvpn0) e rotas sem solicitar senha repetidamente.
+#
+# O script install.sh substitui automaticamente %USER% pelo usuário correto.
+
+%USER% ALL=(ALL) NOPASSWD: /usr/sbin/ip, /usr/sbin/modprobe, /usr/sbin/sysctl, /usr/bin/nmcli, /usr/bin/ip, /usr/bin/modprobe, /usr/bin/sysctl, /usr/bin/sh

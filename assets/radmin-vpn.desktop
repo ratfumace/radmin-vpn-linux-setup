@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Radmin VPN
+GenericName=VPN LAN Client
+Comment=Radmin VPN no Linux para jogar em rede local
+Exec=radmin-vpn-launcher
+Icon=radmin-vpn
+Terminal=false
+Categories=Network;Game;
+StartupWMClass=RvRvpnGui.exe
